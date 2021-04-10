@@ -1,0 +1,117 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+
+}
+header {
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 80%;
+}
+
+nav a {
+    text-decoration: none;
+}
+nav img {
+    width: 25px;
+}
+.G {
+    background-color: brown;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    border-radius: 25px;   
+}
+
+/* Gooogle Icon-Input */
+/*#input_container {
+    position:relative;
+    width: 100%;
+}
+#input {
+    background: url(NicePng_magnifying-glass-png-no_659698.png)
+    width: 80%;
+    padding: 1rem;
+    border-radius: 35px;
+    border: thin 2px grey;
+}
+#input_container i {
+    position:absolute;
+    lright: 20px;
+}
+*/
+
+
+
+/* MAIN*/
+main {
+    margin: 200px auto;
+    width: 40%;
+    text-align: center;
+
+}
+#input {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 30px;
+    border: thin 1px grey;
+    
+}
+button {
+    margin: 15px;
+    padding: 7px;
+    border: none;
+}
+.textbox:hover {
+    box-shadow: black 5px;
+}
+.pin {
+    font-weight: 200;
+}
+.pin a {
+    color: blue;
+    text-decoration: none;
+
+}
+.pin a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer */
+footer div {
+    padding: 0.5rem;
+    background-color: rgb(216, 214, 214);
+    filter: brightness(110%);
+    border-bottom: solid 1px grey;
+}
+.uhm ul {
+    display: inline;
+    
+}
+footer li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+nav-left {
+    justify-content: space-around;
+    padding-left: 5px;
+}
+.nav-center {
+    padding-inline: 23%;
+}
+.nav-center li img {
+    width: 20px;
+    height: 20px;
+}
+.nav-right {
+    padding-left: 8%;
+}
